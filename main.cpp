@@ -1,7 +1,11 @@
 #include <iostream>
+#include "extra.hpp"
 
 int main()
 {
-    std::cout << "Hello from C++" << std::endl;
+    e_print( "Hello from a C++ header" );
+
+//    std::cout << "Hello from C++" << std::endl;
+
     return 0;
 }
